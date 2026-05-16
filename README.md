@@ -1,107 +1,99 @@
-# 🏅 KreedaPreranaScout – Android App
+# KreedaPreranaScout – Android Sports Talent Management App
 
-A modern Android application designed for sports talent identification and management. It helps you collect, organize, and track athlete data with a clean and efficient system.
-
----
+KreedaPreranaScout is an Android application developed to identify, manage, and track student sports talent efficiently. The app provides a structured and user-friendly platform for managing athlete information, attendance, performance records, and rankings.
 
 ## 🚀 Features
 
-• 🔐 Secure login and logout
-• 👤 Athlete profile creation and updates
-• 📊 Centralized data management
-• 📈 Performance tracking
-• 📋 Clean and professional dashboard
-• ⚡ Fast and responsive UI
-
----
+- 🔐 Secure Login and Registration
+- 👤 Student / Athlete Profile Management
+- ➕ Add New Student Records
+- 📊 Interactive Dashboard
+- 📈 Performance Trial Tracking
+- 🏆 Leaderboard for Athlete Comparison
+- 📅 Attendance Management
+- 📉 Talent Progress Tracking
+- ⚙️ Settings Module
+- 🎨 Modern Material Design UI
 
 ## 🛠️ Tech Stack
 
-• Language: Java or Kotlin
-• Platform: Android Studio
-• Database: SQLite or local storage
-• UI: Material Design
-• Architecture: MVVM
-
----
+- **Language:** Kotlin
+- **IDE:** Android Studio
+- **UI Design:** XML + Material Design Components
+- **Architecture:** Fragment-based Navigation Architecture
+- **Database:** Local Android Storage
+- **Version Control:** Git & GitHub
 
 ## 📂 Project Structure
 
-com.example.kreedaprerenascout
+```text
+KreedaPreranaScout/
+│
+├── app/
+│   ├── src/main/java/com/example/kreedapreranascout/
+│   │   ├── ui/auth
+│   │   ├── ui/dashboard
+│   │   ├── ui/student
+│   │   ├── ui/performance
+│   │   ├── ui/leaderboard
+│   │   ├── ui/attendance
+│   │   └── ui/settings
+│   │
+│   ├── src/main/res/layout
+│   ├── src/main/res/drawable
+│   └── src/main/res/navigation
+│
+├── gradle/
+└── README.md
+```
 
-ui/ → Activities and UI logic
-data/ → Models and data handling
-adapter/ → List adapters
-utils/ → Helper classes
+## ⚙️ Installation & Setup
 
----
+### Clone Repository
 
-## ⚙️ Setup Instructions
+```bash
+git clone https://github.com/LavanyaReddy2810/KreedaPreranaScout.git
+```
 
-### Clone the Repository
-
-git clone [https://github.com/malikarshid01430-byte/KreedaPreranaScout.git](https://github.com/malikarshid01430-byte/KreedaPreranaScout.git)
-
----
-
-### Or Download ZIP
-
-1. Go to the repository on GitHub
-2. Click Code
-3. Click Download ZIP
-4. Locate the downloaded ZIP file
-5. Right click the file
-6. Select Extract Here or Extract to folder
-7. Open the extracted folder
-
----
-
-### Import into Android Studio
+### Open in Android Studio
 
 1. Open Android Studio
-2. Click Open
-3. Select the extracted project folder
-4. Wait for Gradle sync to complete
-5. Click Run to launch the app
+2. Click **Open**
+3. Select the project folder
+4. Wait for Gradle Sync
+5. Run the app on emulator or Android device
 
----
+## 📱 Application Modules
 
-## 🎯 Purpose
+- Login Screen
+- Registration Screen
+- Dashboard
+- Student List
+- Add Student
+- Student Profile
+- Trial Logger
+- Leaderboard
+- Attendance Tracker
+- Talent Curve
+- Settings
 
-This app helps you manage sports talent digitally. You can track performance, organize athlete data, and improve decision making.
+## 🎯 Project Objective
 
----
+The main objective of this project is to digitize sports talent identification and athlete management for schools, academies, and coaches by replacing manual record management with an efficient Android application.
 
-## 🔮 Future Improvements
+## 🔮 Future Enhancements
 
-• Cloud integration
-• Advanced analytics
-• Role based access
-• Push notifications
+- Firebase Authentication
+- Cloud Database Integration
+- Real-Time Analytics Dashboard
+- Export Performance Reports
+- Push Notifications
+- Admin / Coach Role Access
 
----
+## 👩‍💻 Author
 
-## 🤝 Contributing
+**Lavanya Reddy**
 
-Fork the repository
-Create a new branch
-Make changes and commit
-Push and create a pull request
+## 🔗 GitHub Repository
 
----
-
-## 📄 License
-
-MIT License
-
----
-
-## 👨‍💻 Author
-
-Developed by Arshid Ahmad Malik
-
----
-
-## ⭐ Support
-
-If you find this project useful, give it a star
+https://github.com/LavanyaReddy2810/KreedaPreranaScout
